@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'LifeCraft';
+  src: url('LifeCraft_Font.ttf')  format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #29242a;
+  background-image: url(alterac-valley.jpg);
+  background-size: cover;
+  color: #fafafa;
+  font-family: sans-serif;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+  /* text-align: center; */
+}
+
+body:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,.8);
+  z-index: -1;
+}
+
+.main img {
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+.main {
+  display: flex;
+  width: 960px;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 100%;
+  min-height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.main h1 {
+  font-family: "LifeCraft";
+  font-size: 64px;
+  font-weight: 100;
+  margin-top: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.content > div, .content > iframe {
+  margin: 0 20px;
+}
