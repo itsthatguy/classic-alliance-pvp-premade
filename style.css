@@ -61,6 +61,10 @@ body:before {
   margin-top: 0;
 }
 
+.main .discord {
+  height: 64px;
+}
+
 .content {
   display: flex;
   flex-direction: row;
